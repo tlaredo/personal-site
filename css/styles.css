@@ -1,0 +1,28 @@
+/*-------Style.css-------*/
+
+.jumbotron {
+	padding: 15% 7%;
+	margin-top: 50px;
+	margin-bottom: 0;
+	text-align: center;
+}
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+.container {
+	text-align: center;
+}
+
+.section-image {
+	padding: 12% 7%;
+	text-align: center;
+	background: yellow;
+}
