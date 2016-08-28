@@ -89,15 +89,13 @@
       <div class="section-image">
         <h1>About Me</h1>
       </div>
-      <div class="container">
-        <p>Hi, I’m Tyler! I’m an engineering student at the University of Michigan studying Computer Science. I am passionate about intersecting engineering, design, and business to make the world a better place.</p>
+      <div class="container section-content">
+        <p>Hi, I’m Tyler! I’m a third-year engineering student at the University of Michigan studying Computer Science. I am passionate about intersecting engineering, design, and business to make the world a better place.</p>
         <br>
-        <p>I directed one of the largest collegiate hackathons in the country: MHacks. To get exposed to Michigan’s entrepreneurial ecosystem, I also interned at Desai Accelerator and the College of Engineering’s Center for Entrepreneurship. I am also a recipient of the four-year merit-based Bell Scholarship and an ELP Fellow.</p>
+        <p>I directed one of the largest collegiate hackathons in the country: MHacks. To get exposed to Michigan’s entrepreneurial ecosystem, I also interned at Desai Accelerator and the College of Engineering’s Center for Entrepreneurship. I am also a recipient of the four-year merit-based Bell Scholarship and a fellow in Michigan's Entreprenurs Leadership Program.</p>
         <h2>Interests</h2>
-        <p>I am focusing on full-stack web development, with a plan to explore mobile app development and machine learning. I get super excited by startups, product development, UX and design, and the growing field of AI.</p>
-        <br> 
+        <p>I am focusing on full-stack web development, with a plan to explore mobile app development and machine learning. I get super excited by startups, product development, UX and design, and the growing field of AI.</p> 
         <p>Most of my time is spent coding, designing, reading, exercising, and cooking.</p>
-        <br>
         <p>I am an Apple fanboy, avid Star Wars fan, and big foodie 😋.</p>
         <br>
         <div class="row">
@@ -119,7 +117,7 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-md-6">
+          <div class="col-md-6 section-in-col">
             <h2>Technologies</h3>
             <ul>
               <li>AngularJS</li>
@@ -128,7 +126,7 @@
               <li>VIM</li>
             </ul>
           </div>
-          <div class="col-md-6">
+          <div class="col-md-6 section-in-col">
             <h2>Applications</h3>
             <ul>
               <li>Sketch</li>
@@ -146,9 +144,11 @@
       <div class="section-image">
           <h1>Experience</h1>
       </div>
-      <div class="container">
+      <div class="container section-content">
           <div class="row">
-            <h2>Desai Accelerator</h2>
+            <img id="desai-logo" src="../assets/imgs/desai_logo.png">
+            <h4 class="position-title">Web Development &amp; Design Intern</h4>
+            <h4 class="position-title">Summer, 2016</h4>
             <p>This summer I interned at Desai Accelerator in Ann Arbor, MI. Desai is a joint-venture between the engineering and business schools at Michigan, which puts early-stage tech-based startups through an intensive 16-week program to help them grow and scale their businesses.</p>
             <br>
             <p>As web development and design intern, I:</p>
@@ -159,7 +159,8 @@
             </ul>
           </div>
           <div class="row">
-            <h2>MHacks</h2>
+            <h2 class="position-title">MHacks</h2>
+            <h4 class="position-title">2014-current</h4>
             <p>I have been involved with Michigan’s semi-annual student-run hackathon since my senior year of high school. Over the last two years I became involved in the organization through various levels and leadership roles:</p>
             <br>
             <p>Member of the Board of Directors</p>
@@ -193,15 +194,26 @@
       <div class="section-image">
         <h1>Education</h1>
       </div>
-      <div class="container">
+      <div class="container section-content">
         <h2>University: University of Michigan</h2>
-        <h2>High School: Washington-Lee High School</h2>
-        <h2>Online Courses:</h2>
-        <ul>
-          <li>AngularJS (Treehouse)</li>
-          <li>Complete Web Developer Course (Udemy)</li>
-        </ul>
-
+        <div class="row">
+          <div class="col-md-6 section-in-col">
+            <h2>Courses</h3>
+            <ul>
+              <li>Web Databases &amp; Information Systems (EECS 485)</li>
+              <li>Data Structures &amp; Algorithms (EECS 281)</li>
+              <li>Intro to Computer Organization (EECS 370)</li>
+              <li>Needs Assessment &amp; Usability Evaluation (SI 422)</li>
+            </ul>
+          </div>
+          <div class="col-md-6 section-in-col">
+            <h2>Online Courses</h3>
+            <ul>
+              <li>AngularJS (Treehouse)</li>
+              <li>Complete Web Developer Course (Udemy)</li>
+            </ul>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -218,12 +230,13 @@
 
     <!-- Contact Section -->
     <section id="contact-links" class="contact-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h1>Contact/Links</h1>
-                </div>
-            </div>
+      <div class="section-image">
+        <h1>Contact/Links</h1>
+      </div>
+        <div class="container content-section">
+            <img class="social-icons" src="../assets/imgs/email.png"><a href="mailto:tlaredo@umich.edu">tlaredo@umich.edu</a>
+            <img class="social-icons" src="../assets/imgs/linkedin.png"><a href="https://www.linkedin.com/in/tlaredo">linkedin.com/in/tlaredo</a>
+            <img class="social-icons" src="../assets/imgs/github.png"><a href="https://github.com/tlaredo">github.com/tlaredo</a>
         </div>
     </section>
 
@@ -237,10 +250,11 @@
       <br>
       <ul>
         <li><a href="mailto:tlaredo@umich.edu"><img class="social-icons" src="../assets/imgs/email.png"></a></li>
+        <li><a href="https://drive.google.com/file/d/0B4d1cAtkJQCEeFROM3F4VDBkY2s/view?usp=sharing"><img class="social-icons" src="../assets/imgs/resume.png"></a></li>
         <li><a href="https://www.linkedin.com/in/tlaredo"><img class="social-icons" src="../assets/imgs/linkedin.png"></a></li>
         <li><a href="https://github.com/tlaredo"><img class="social-icons" src="../assets/imgs/github.png"></a></li>
-        <li><a href="https://www.facebook.com/tyler.laredo"><img class="social-icons" src="../assets/imgs/facebook.png"></a></li>
-        <li><a href="https://www.instagram.com/t.laredo/?hl=en"><img class="social-icons" src="../assets/imgs/instagram.png"></a></li>
+        <!-- <li><a href="https://www.facebook.com/tyler.laredo"><img class="social-icons" src="../assets/imgs/facebook.png"></a></li>
+        <li><a href="https://www.instagram.com/t.laredo/?hl=en"><img class="social-icons" src="../assets/imgs/instagram.png"></a></li> -->
       </ul>
       <br>
       <br>

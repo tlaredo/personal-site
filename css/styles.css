@@ -16,8 +16,13 @@
   text-align: center;
 }
 
-.container {
-	text-align: center;
+.section-content {
+	padding: 5% 15%;
+}
+
+.row {
+	margin-left: 0;
+	margin-right: 0;
 }
 
 .section-image {
@@ -27,8 +32,24 @@
 }
 
 .social-icons {
-	width: 45px;
-	height: 45px;
+	width: 35px;
+	height: 35px;
+}
+
+.section-in-col {
+	padding-right: 0;
+	padding-left: 0;
+}
+
+.position-title {
+	text-align: center;
+}
+
+#desai-logo {
+	width: 225px;
+	display: block;
+	margin: auto;
+	margin-bottom: 20px;
 }
 
 footer {
@@ -60,5 +81,9 @@ footer ul li a {
 }
 
 footer li a:hover {
+	color: white;
+}
+
+footer li a:active {
 	color: white;
 }
