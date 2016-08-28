@@ -1,5 +1,4 @@
 /*-------Style.css-------*/
-
 .jumbotron {
 	padding: 15% 7%;
 	margin-top: 50px;
@@ -25,4 +24,41 @@
 	padding: 12% 7%;
 	text-align: center;
 	background: yellow;
+}
+
+.social-icons {
+	width: 45px;
+	height: 45px;
+}
+
+footer {
+	color: white;
+	text-align: center;
+	padding: 40px 0 5px 0;
+	background: #4A4A4A;
+	box-shadow: inset 0px 1px 3px 0px rgba(0,0,0,0.50);
+}
+
+footer ul {
+	text-align: center;
+	list-style-type: none;
+    margin: 5px;
+    padding: 0;
+    overflow: hidden;
+}
+
+footer ul li {
+	display: inline;
+}
+
+footer ul li a {
+	font-weight: bold;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+footer li a:hover {
+	color: white;
 }
