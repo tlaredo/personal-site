@@ -14,6 +14,9 @@
     <link href="css/scrolling-nav.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
 
+    <!-- Lato font -->
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -94,13 +97,13 @@
       <div class="container section-content">
         <p>Hi, I’m Tyler! I’m a third-year engineering student at the University of Michigan studying Computer Science. I am passionate about intersecting engineering, design, and business to make the world a better place.</p>
         <br>
-        <p>I directed one of the largest collegiate hackathons in the country: MHacks. To get exposed to Michigan’s entrepreneurial ecosystem, I also interned at Desai Accelerator and the College of Engineering’s Center for Entrepreneurship. I am also a recipient of the four-year merit-based Bell Scholarship and a fellow in Michigan's Entreprenurs Leadership Program.</p>
+        <p>I directed one of the largest collegiate hackathons in the country: MHacks. To get exposed to Michigan’s entrepreneurial ecosystem, I also interned at Desai Accelerator and the College of Engineering’s Center for Entrepreneurship. I am also a recipient of the four-year merit-based <a href="https://bellscholarship.org/">Bell Scholarship</a> and a fellow in Michigan's <a href="http://cfe.umich.edu/entrepreneurs-leadership-program-elp/">Entreprenurs Leadership Program</a>.</p>
         <h2>Interests</h2>
         <p>I am focusing on full-stack web development, with a plan to explore mobile app development and machine learning. I get super excited by startups, product development, UX and design, and the growing field of AI.</p> 
         <p>Most of my time is spent coding, designing, reading, exercising, and cooking.</p>
         <p>I am an Apple fanboy, avid Star Wars fan, and big foodie 😋.</p>
         <br>
-        <div class="row">
+        <div class="row skills">
           <h2>Programming Languages</h2>
           <div class="col-md-6">
             <h3>Proficient</h3>
@@ -118,7 +121,7 @@
             </ul>
           </div>
         </div>
-        <div class="row">
+        <div class="row skills">
           <div class="col-md-6 section-in-col">
             <h2>Technologies</h3>
             <ul>
@@ -147,45 +150,91 @@
           <h1>Experience 😎</h1>
       </div>
       <div class="container section-content">
+          
+          <a href="http://desaiaccelerator.umich.edu/"><img id="desai-logo" src="../assets/imgs/desai_logo.png"></a>
+          <h4 class="position-title">Web Development &amp; Design Intern at <a href="http://desaiaccelerator.umich.edu/">Desai Accelerator</a>, <span class="date">Summer 2016</span></h4>
+          <p>This summer I interned at Desai Accelerator in Ann Arbor, MI. Desai is a joint-venture between the engineering and business schools at Michigan, which puts early-stage tech-based startups through an intensive 16-week program to help them grow and scale their businesses.</p>
+          <br>
+          <p>Check out three of my biggest projects:</p>
+          <br>
           <div class="row">
-            <a href="http://desaiaccelerator.umich.edu/"><img id="desai-logo" src="../assets/imgs/desai_logo.png"></a>
-            <h4 class="position-title">Web Development &amp; Design Intern at <a href="http://desaiaccelerator.umich.edu/">Desai Accelerator</a>, <span class="position-date">Summer 2016</span></h4>
-            <p>This summer I interned at Desai Accelerator in Ann Arbor, MI. Desai is a joint-venture between the engineering and business schools at Michigan, which puts early-stage tech-based startups through an intensive 16-week program to help them grow and scale their businesses.</p>
-            <br>
-            <p>As web development and design intern, I:</p>
-            <ul>
-              <li>Led a team and developed front-end for MySwimPro's web application using AngularJS, which reached 100k users.</li>
-              <li>Designed and developed front-end for a Sultant's web tool using Bootstrap, which resulted in a 200% increase in page views.</li>
-              <li>Redesigned MySwimPro's iOS and Android user interfaces using Sketch, which reached over 30k monthly active users.</li>
-            </ul>
-          </div>
-          <div class="row">
-            <a href="https://mhacks.org/"><img id="mhacks-logo" src="../assets/imgs/mhacks.png"></a>
-            <h4 class="position-title">Director Emeritus at <a href="https://mhacks.org/">MHacks</a>, <span class="position-date">Fall 2014 - present</span></h4>
-            <p>I have been involved with Michigan’s semi-annual student-run hackathon since my senior year of high school. Over the last two years I became involved in the organization through various levels and leadership roles:</p>
-            <br>
-            <p>Member of the Board of Directors</p>
-            <ul>
-              <li>Implemented legal and financial framework for future MHacks teams
-              </li>
-              <li>Recruited new directors</li>
-            </ul>
-            <p>Summer/Fall 2015 - Director of Sponsorship</p>
-            <ul>
-              <li>Co-directed our 1300-student fall event</li>
-              <li>Led a 5-person team to acquire 60 sponsors from leading F500 companies (includes Apple, Walmart, Google, Ford)
-              </li>
-              <li>Led team to build a new proprietary résumé collection database to enhance hackathon recruiting methods
-              </li>
-              <li>Integrated CRM software (SalesforceIQ) into sponsorship procedures, allowing my team to increase outreach from 350 companies to 700 companies. 
-              </li>
-            </ul>
+            <div class="col-md-4">
+              <div class="thumbnail">
+                <a href="http://myswimpro.com/#/login">
+                  <img src="../assets/imgs/web-app.png" alt="MySwimPro Web Applicattion">
+                </a>
+                <div class="caption">
+                  <h3>MySwimPro Web Application</h3>
+                  <p>I led a team and developed front-end for MySwimPro's <a href="http://myswimpro.com/#/login">web application</a> using AngularJS, which reached 100k users.</p>
+                </div>
+              </div>
+            </div>
 
-            <p>Summer/Fall 2014 - Head of Online Marketing &amp; Social Media</p>
-            <ul>
-              <li>Increased Twitter and Facebook followers from 4,000 to 5,400 (35% increase)</li>
-              <li>Created advertisements on Facebook and Twitter that reached approximately 30,000 students</li>
-            </ul>
+            <div class="col-md-4">
+              <div class="thumbnail">
+                <a href="http://m.sultant.co/benchmarks">
+                  <img src="../assets/imgs/sultant.png" alt="Sultant Industry Benchmarks">
+                </a>
+                
+                <div class="caption">
+                  <h3>Sultant Industry Benchmarks</h3>
+                  <p>I designed and developed front-end for Sultant's <a href="http://m.sultant.co/benchmarks">web tool</a> using Bootstrap, which resulted in a 200% increase in page views.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="thumbnail">
+                <a href="https://itunes.apple.com/us/app/myswimpro-personal-swim-coach/id994386450?mt=8">
+                  <img src="../assets/imgs/ios.png" alt="MySwimPro Mobile App Redesign">
+                </a>
+                <div class="caption">
+                  <h3>MSP Mobile App Redesign</h3>
+                  <p>I redesigned MySwimPro's iOS and Android <a href="https://itunes.apple.com/us/app/myswimpro-personal-swim-coach/id994386450?mt=8">user interfaces</a> using Sketch, which reached over 30k monthly active users.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <hr>
+          
+          <br>
+          <a href="https://mhacks.org/"><img id="mhacks-logo" src="../assets/imgs/mhacks.png"></a>
+          <h4 class="position-title">Director Emeritus at <a href="https://mhacks.org/">MHacks</a>, <span class="date">Fall 2014 - present</span></h4>
+          <p>I have been involved with Michigan’s semi-annual student-run hackathon since my senior year of high school. Over the last two years I became involved in the organization through various levels and leadership roles:</p>
+          <br>
+          <div class="row">
+            <div class="col-md-4 mhacks-positions">
+              <h4>Head of Online Marketing</h4>
+              <h4 class="date">Summer/Fall 2014</h4>
+              <ul>
+                <li>Increased Twitter and Facebook followers from 4,000 to 5,400 (35% increase)</li>
+                <li>Created advertisements on Facebook and Twitter that reached approximately 30,000 students</li>
+              </ul>
+            </div>
+
+            <div class="col-md-4 mhacks-positions">
+              <h4>Director of Sponsorship</h4>
+              <h4 class="date">Summer/Fall 2015</h4>
+              <ul>
+                <li>Co-directed our 1300-student fall event</li>
+                <li>Led a 5-person team to acquire 60 sponsors from leading F500 companies (includes Apple, Walmart, Google, Ford)
+                </li>
+                <li>Led team to build a new proprietary résumé collection database to enhance hackathon recruiting methods
+                </li>
+                <li>Integrated CRM software (SalesforceIQ) into sponsorship procedures, allowing my team to increase outreach from 350 companies to 700 companies. 
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-4 mhacks-positions">
+              <h4>Member of the Board of Directors</h4>
+              <h4 class="date">Fall 2015-Summer 2016</h4>
+              <ul>
+                <li>Implemented legal and financial framework for future MHacks teams
+                </li>
+                <li>Recruited new directors</li>
+              </ul>
+            </div>            
           </div>
       </div>
     </section>
@@ -196,8 +245,10 @@
         <h1>Education 🤓</h1>
       </div>
       <div class="container section-content">
-        <h2>University: University of Michigan</h2>
-        <div class="row">
+        <h2 style="text-align: center;">University of Michigan</h2> 
+        <p style="text-align: center;"><span id="education-info">Class of 2018, B.S. in Computer Science - Engineering</span><p>
+        <br>
+        <div class="row skills">
           <div class="col-md-6 section-in-col">
             <h2>Courses</h3>
             <ul>
@@ -210,8 +261,8 @@
           <div class="col-md-6 section-in-col">
             <h2>Online Courses</h3>
             <ul>
-              <li>AngularJS (Treehouse)</li>
-              <li>Complete Web Developer Course (Udemy)</li>
+              <li>AngularJS (<a href="https://teamtreehouse.com/library/angular-basics">Treehouse</a>)</li>
+              <li>Complete Web Developer Course (<a href="https://www.udemy.com/complete-web-developer-course/">Udemy</a>)</li>
             </ul>
           </div>
         </div>
@@ -235,7 +286,7 @@
         <h1>Contact/Links 💻</h1>
         <br>
         <ul>
-          <li><a href="mailto:tlaredo@umich.edu"><img class="social-icons" src="../assets/imgs/email.png"></a></li>
+          <li><a href="mailto:me@tylerlaredo.com"><img class="social-icons" src="../assets/imgs/email.png"></a></li>
           <li><a href="https://drive.google.com/file/d/0B4d1cAtkJQCEeFROM3F4VDBkY2s/view?usp=sharing"><img class="social-icons" src="../assets/imgs/resume.png"></a></li>
           <li><a href="https://www.linkedin.com/in/tlaredo"><img class="social-icons" src="../assets/imgs/linkedin.png"></a></li>
           <li><a href="https://github.com/tlaredo"><img class="social-icons" src="../assets/imgs/github.png"></a></li>
@@ -246,7 +297,7 @@
     </section>
 
     <footer>
-      <p style="font-weight: 200;">Made with 💛 in Ann Arbor</p>
+      <p style="font-weight: 200;">Made with 💛 in Ann Arbor, MI</p>
     </footer>
 
     <!-- jQuery CDN (necessary for Bootstrap's JavaScript plugins) -->
