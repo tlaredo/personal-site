@@ -134,7 +134,10 @@ body {
 
 #contact-links ul li {
 	display: inline;
-	padding: 14px 16px;
+	padding-top: 14px;
+	padding-bottom: 14px;
+	padding-right: 2.5%; 
+	padding-left: 2.5%;
 }
 
 /*.contact-section ul li a {
