@@ -70,6 +70,15 @@ p, a, li {
 	/*background-image: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);*/
 }
 
+#projects-image {
+	padding: 8% 7%;
+	text-align: center;
+	color: white;
+	background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.35)), url("../assets/imgs/projects.jpg");
+	background-position: center;
+	background-size: cover;
+}
+
 #experience-image {
 	padding: 8% 7%;
 	text-align: center;
@@ -115,6 +124,26 @@ p, a, li {
 	font-weight: 300;
 }
 
+#classai-logo {
+	width: 225px;
+	display: block;
+	margin: auto;
+	margin-bottom: 20px;
+}
+
+#laredolightbox-logo {
+	width: 100px;
+	display: block;
+	margin: auto;
+	margin-bottom: 20px;
+}
+
+#slack-logo {
+	width: 225px;
+	display: block;
+	margin: auto;
+	margin-bottom: 20px;
+}
 
 #desai-logo {
 	width: 225px;
@@ -181,7 +210,7 @@ p, a, li {
 }
 
 .mhacks-positions h4 {
-	text-align: center;
+	text-align: left;
 }
 
 /*#12BBB8*/
